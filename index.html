@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOWROOM</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
+        media="screen and (max-width:1100px)">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- drawer.css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jQuery.js"></script>
+
+
+</head>
+
+<body class="drawer drawer--right">
+    <header class="header js-header">
+        <nav class="header-nav inner">
+            <a href="#top" class="header-logo js-header">お試しNOWROOM</a>
+            <nav class="header-menu drawer-nav js-header">
+                <ul class="header-list drawer-menu">
+                    <li class="header-item"><a class="header-item-link js-header" href="#news">News</a></li>
+                    <li class="header-item"><a class="header-item-link js-header" href="#media">Media</a></li>
+                    <li class="header-item"><a class="header-item-link js-header" href="#service">Service</a></li>
+                    <li class="header-item"><a class="header-item-link js-header" href="#price">Price</a></li>
+                    <li class="header-item"><a class="header-item-link js-header" href="#faq">FAQ</a></li>
+                    <li class="header-item"><a class="header-item-link js-header" href="#access">Access</a></li>
+                    <li class="header-item"><a class="header-item-link js-header" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button type="button" class="drawer-toggle drawer-hamburger is-sm">
+                <span class="sr-only">toggle navigation</span>
+                <span class="drawer-hamburger-icon js-header"></span>
+            </button>
+        </nav>
+    </header>
+    <!-- /header -->
+
+    <section id="top">
+        <h1 class="top-title">Low Cost , Rich Life</h1>
+    </section>
+    <!-- /#top -->
+
+    <section id="news">
+        <div class="news-container inner">
+            <div class="section-title news-title">News</div>
+            <h2 class="heading-title news-heading">最新のお知らせ</h2>
+
+            <ul class="news-wrapper">
+                <li class="news-list">
+                    <a href="">
+                        <div class="news-meta">
+                            <div class="news-meta-date"><time>2020.09.06</time></div>
+                            <div class="news-meta-topics">Topics</div>
+                        </div>
+                        <div class="news-body">【お試しNOWROOM】 1万/1週間からお得に暮らせる</div>
+                        <span class="news-icon">➡</span>
+                    </a>
+                </li>
+                <li class="news-list">
+                    <a href="">
+                        <div class="news-meta">
+                            <div class="news-meta-date"><time>2020.09.06</time></div>
+                            <div class="news-meta-topics">Topics</div>
+                        </div>
+                        <div class="news-body">【お試しNOWROOM】 1万/1週間からお得に暮らせる</div>
+                        <span class="news-icon">➡</span>
+                    </a>
+                </li>
+                <li class="news-list">
+                    <a href="">
+                        <div class="news-meta">
+                            <div class="news-meta-date"><time>2020.09.06</time></div>
+                            <div class="news-meta-topics">Topics</div>
+                        </div>
+                        <div class="news-body">【お試しNOWROOM】 1万/1週間からお得に暮らせる</div>
+                        <span class="news-icon">➡</span>
+                    </a>
+                </li>
+                <li class="news-list">
+                    <a href="">
+                        <div class="news-meta">
+                            <div class="news-meta-date"><time>2020.09.06</time></div>
+                            <div class="news-meta-topics">Topics</div>
+                        </div>
+                        <div class="news-body">【お試しNOWROOM】 1万/1週間からお得に暮らせる</div>
+                        <span class="news-icon">➡</span>
+                    </a>
+                </li>
+                <li class="news-list">
+                    <a href="">
+                        <div class="news-meta">
+                            <div class="news-meta-date"><time>2020.09.06</time></div>
+                            <div class="news-meta-topics">Topics</div>
+                        </div>
+                        <div class="news-body">【お試しNOWROOM】 1万/1週間からお得に暮らせる</div>
+                        <span class="news-icon">➡</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="view-btn">
+                <a href="">View All</a>
+            </div>
+        </div>
+    </section>
+    <!-- /#news -->
+
+    <section id="media">
+        <div class="media-container inner">
+            <div class="section-title media-title">Media</div>
+            <h2 class="heading-title media-heading">新着記事</h2>
+        </div>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/media.png" alt="">
+                        <time class="swiper-slide-date">2020.09.06</time>
+                        <p class="swiper-slide-lead">プレスリリースが配信されました。プレスリリースが配信されました。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/media.png" alt="">
+                        <time class="swiper-slide-date">2020.09.06</time>
+                        <p class="swiper-slide-lead">プレスリリースが配信されました。プレスリリースが配信されました。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/media.png" alt="">
+                        <time class="swiper-slide-date">2020.09.06</time>
+                        <p class="swiper-slide-lead">プレスリリースが配信されました。プレスリリースが配信されました。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/media.png" alt="">
+                        <time class="swiper-slide-date">2020.09.06</time>
+                        <p class="swiper-slide-lead">プレスリリースが配信されました。プレスリリースが配信されました。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/media.png" alt="">
+                        <time class="swiper-slide-date">2020.09.06</time>
+                        <p class="swiper-slide-lead">プレスリリースが配信されました。プレスリリースが配信されました。</p>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-wrapper">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+        <div class="inner">
+            <div class="view-btn">
+                <a href="">View All</a>
+            </div>
+        </div>
+    </section>
+    <!-- /#media -->
+
+    <section id="service">
+        <div class="service-container inner">
+            <img class="service-img" src="img/service.png" alt="">
+            <div class="service-right">
+                <div class="section-title service-title">Service</div>
+                <h2 class="heading-title service-heading">5秒で部屋が見つかるアプリ</h2>
+                <img class="service-logo" src="img/logo-service.png" alt="">
+                <p class="service-lead">NOW ROOMは「初期費用0円」で「一ヶ月単位で家を借りられる」次世代型の賃貸プラットフォームです。
+                    全国の空室データと家を探している人をマッチングし、多様な住まいの選択肢を安価、かつスピーディに提供。今まで審査が通にくかったフリーランスや外国人の方でも、クレジットカード一枚で住まいを借りられます。
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- /#service -->
+
+    <section id="price">
+        <div class="price-container inner">
+            <div class="section-title price-title">Price</div>
+            <h2 class="heading-title price-heading">料金プラン</h2>
+            <div class="price-cards">
+                <div class="price-card card left">
+                    <a href=""></a>
+                    <img src="img/price.png" alt="">
+                    <div class="price-card-title">Regular</div>
+                    <div class="price-card-money"><span>¥980</span>/月</div>
+                    <p class="price-card-lead">・サンプルテキストが入ります。<br>・サンプルテキストが入ります。<br>・サンプルテキストが入ります。</p>
+                    <div class="price-card-view left">View more</div>
+                </div>
+                <div class="price-card card right">
+                    <a href=""></a>
+                    <img src="img/price.png" alt="">
+                    <div class="price-card-title">Special</div>
+                    <div class="price-card-money"><span>¥1,480</span>/月</div>
+                    <p class="price-card-lead">・サンプルテキストが入ります。<br>・サンプルテキストが入ります。<br>・サンプルテキストが入ります。</p>
+                    <div class="price-card-view right">View more</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#price -->
+
+    <section id="customer">
+        <div class="customer-container inner">
+            <div class="section-title customer-title">Customer Voice</div>
+            <h2 class="heading-title customer-heading">お客様の声</h2>
+            <div class="customer-cards">
+                <div class="customer-card card">
+                    <img class="customer-card-img" src="img/customer.png" alt="">
+                    <p class="customer-card-client">クライアントA</p>
+                    <p class="customer-card-address">27歳 男性 東京都在住</p>
+                    <p class="customer-card-lead">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。
+                    </p>
+                </div>
+                <div class="customer-card card">
+                    <img class="customer-card-img" src="img/customer.png" alt="">
+                    <p class="customer-card-client">クライアントA</p>
+                    <p class="customer-card-address">27歳 男性 東京都在住</p>
+                    <p class="customer-card-lead">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。
+                    </p>
+                </div>
+                <div class="customer-card card">
+                    <img class="customer-card-img" src="img/customer.png" alt="">
+                    <p class="customer-card-client">クライアントA</p>
+                    <p class="customer-card-address">27歳 男性 東京都在住</p>
+                    <p class="customer-card-lead">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#customer -->
+
+    <section id="faq">
+        <div class="faq-container inner">
+            <div class="section-title faq-title">FAQ</div>
+            <h2 class="heading-title faq-heading">よくある質問</h2>
+            <div class="faq-accordion">
+                <div class="accordion-item">
+                    <dt class="accordion-head">サンプルテキストが入ります。サンプルテキストが入ります。</dt>
+                    <dd class="accordion-body">
+                        <div class="accordion-body-in">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキスト。
+                        </div>
+                    </dd>
+                </div>
+                <div class="accordion-item">
+                    <dt class="accordion-head">サンプルテキストが入ります。サンプルテキストが入ります。</dt>
+                    <dd class="accordion-body">
+                        <div class="accordion-body-in">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキスト。
+                        </div>
+                    </dd>
+                </div>
+                <div class="accordion-item">
+                    <dt class="accordion-head">サンプルテキストが入ります。サンプルテキストが入ります。</dt>
+                    <dd class="accordion-body">
+                        <div class="accordion-body-in">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキスト。
+                        </div>
+                    </dd>
+                </div>
+                <div class="accordion-item">
+                    <dt class="accordion-head">サンプルテキストが入ります。サンプルテキストが入ります。</dt>
+                    <dd class="accordion-body">
+                        <div class="accordion-body-in">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキスト。
+                        </div>
+                    </dd>
+                </div>
+                <div class="accordion-item">
+                    <dt class="accordion-head">サンプルテキストが入ります。サンプルテキストが入ります。</dt>
+                    <dd class="accordion-body">
+                        <div class="accordion-body-in">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキスト。
+                        </div>
+                    </dd>
+                </div>
+                <div class="accordion-item">
+                    <dt class="accordion-head">サンプルテキストが入ります。サンプルテキストが入ります。</dt>
+                    <dd class="accordion-body">
+                        <div class="accordion-body-in">サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキストが入ります。サンプルテキスト。
+                        </div>
+                    </dd>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#faq -->
+
+    <section id="access">
+        <div class="access-container inner">
+            <div class="section-title access-title">Access</div>
+            <h2 class="heading-title access-heading">アクセス</h2>
+            <div class="access-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.770164150711!2d139.69944711490209!3d35.65803388019968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1600660159906!5m2!1sja!2sjp"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <address>
+                <p class="access-address">〒150-0002 東京都渋谷区渋谷２丁目２４−１</p>
+                <p class="access-address tel">Tel : 000-0000-0000</p>
+                <p class="access-address tel">Fax : 000-0000-0000</p>
+                <p class="access-address">Mail : forexample@sample.com</p>
+            </address>
+        </div>
+    </section>
+    <!-- /#access -->
+
+    <section id="contact">
+        <div class="inner">
+            <div class="section-title contact-title">Contact</div>
+            <h2 class="heading-title contact-heading">お問い合わせ</h2>
+
+            <div class="contact-container">
+                <div class="contact-container-left">
+                    <p class="contact-container-lead">
+                        何かご不明点・ご相談などがございましたらお気軽にこちらのお問い合わせフォームからご連絡ください。<br>ご連絡内容を確認次第、営業日3日以内よりこちらからご連絡させて頂きます。</p>
+                </div>
+                <div class="contact-container-right">
+                    <form action="post">
+
+                        <div class="form-item">
+                            <label for="list" class="label-style">お問い合わせ種別</label>
+                            <div class="select-box">
+                                <select id="list" class="form-select">
+                                    <option></option>
+                                    <option>お問い合わせ内容A</option>
+                                    <option>お問い合わせ内容B</option>
+                                    <option>お問い合わせ内容C</option>
+                                </select>
+                            </div>
+                            <span class="select-box-mark">⬇</span>
+                        </div>
+                        <div class="form-item">
+                            <label for="name" class="label-style required">氏名</label>
+                            <input id="name" class="form-text" type="text" name="name">
+                            <span class="form-text-mark"></span>
+                        </div>
+                        <div class="form-item">
+                            <label for="name-kana" class="label-style required">フリガナ</label>
+                            <input id="name-kana" class="form-text" type="text" name="name-kana">
+                            <span class="form-text-mark"></span>
+                        </div>
+                        <div class="form-item">
+                            <label for="mail" class="label-style">メールアドレス</label>
+                            <input id="mail" class="form-text form-text-mail" type="email" name="mail">
+                            <span class="form-text-mark"></span>
+                        </div>
+                        <div class="form-radio-wrapper">
+                            <label><input id="radio" class="form-radio" type="radio" name="sex"><span>男性</span></label>
+                            <label><input id="radio" class="form-radio" type="radio" name="sex"><span>女性</span></label>
+                        </div>
+                        <div class="form-message-wrapper">
+                            <label for="message" class="label-style">お問い合わせ内容</label>
+                            <span class="form-text-mark"></span>
+                            <div class="label-message-box">
+                            </div>
+                            <textarea id="message" class="form-message" name="message"></textarea>
+                        </div>
+
+                        <div class="form-submit-wrapper">
+                            <input class="form-submit" type="submit" value="送信する">
+                            <span class="submit-icon">→</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#contact -->
+
+    <footer class="footer">
+        <div class="footer-container inner">
+            <ul class="footer-list">
+                <li class="footer-item"><a class="footer-item-link" href="">サイトマップ</a></li>
+                <li class="footer-item"><a class="footer-item-link" href="">個人情報保護方針</a></li>
+                <li class="footer-item"><a class="footer-item-link" href="">プライバシーポリシー</a></li>
+            </ul>
+            <div class="footer-logo">お試しNOWROOM</div>
+        </div>
+    </footer>
+</body>
+
+</html>
